@@ -1,0 +1,27 @@
+View, #id {
+    background-color: #fff;
+    text: "Generic";
+}
+
+Label[platform=ios][form-factor=handheld] {
+    background-color: #f00;
+    text: "iPhone";
+}
+
+Label[platform=ios][form-factor=tablet] {
+    background-color: #0f0;
+    text: "iPad";
+}
+
+Label[platform=android] {
+    background-color: #00f;
+    text: "Android";
+}
+
+/* Not possible, but allowed */
+View Label {
+    text: "Yo!";
+    font-family: Arial;
+    font-size: 9px;
+    font-weight: bold;
+}

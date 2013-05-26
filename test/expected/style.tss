@@ -1,0 +1,29 @@
+
+"View": {
+    "backgroundColor": "#fff",
+    "text": "Generic"
+},
+"#id": {
+    "backgroundColor": "#fff",
+    "text": "Generic"
+},
+"Label[platform=ios form-factor=handheld]": {
+    "backgroundColor": "#f00",
+    "text": "iPhone"
+},
+"Label[platform=ios form-factor=tablet]": {
+    "backgroundColor": "#0f0",
+    "text": "iPad"
+},
+"Label[platform=android]": {
+    "backgroundColor": "#00f",
+    "text": "Android"
+},
+"View Label": {
+    "text": "Yo!",
+    "font": {
+        "fontFamily": "Arial",
+        "fontSize": "9px",
+        "fontWeight": "bold"
+    }
+}
